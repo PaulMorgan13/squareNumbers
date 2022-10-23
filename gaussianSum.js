@@ -1,6 +1,6 @@
 const sum = function(ary){
 
-    const lastNumber = ary[.arylength-1]   
+    const lastNumber = ary[arylength-1]   
 
     return (lastNumber * lastNumber +1)/2 
 
