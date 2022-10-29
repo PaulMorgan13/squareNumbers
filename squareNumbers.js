@@ -1,4 +1,3 @@
-//solved 
 
 function squareDigits(num){
       let newNum = num.toString().split("");
