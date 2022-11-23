@@ -22,6 +22,27 @@ function mostfrequentCount(collection){
 
 
 
+// solution with map
+        function mostFrequentItemCount(arr) {
+            var len = arr.length;
+          
+            if (len) {
+              var map = {};
+              var max = 0;
+          
+              for (var i = 0; i < len; i++) {
+                map[arr[i]] = (map[arr[i]] || 0) + 1;
+          
+                if (max < map[arr[i]]) {
+                  max = map[arr[i]];
+                }
+              }
+          
+              return max;
+            }
+          
+            return 0;
+          }
 
 
 
