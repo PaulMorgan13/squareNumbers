@@ -3,7 +3,9 @@
 let back = document.querySelector(".box1");
 
 
-function changeColor() {  
+function changeColor() {     
+
+    //grabs window width
     window_width = window.innerWidth;
 
     if(window_width > 800){
