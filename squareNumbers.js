@@ -11,4 +11,4 @@ function squareDigits(num){
       let final = parseInt(sqr);
 
       return final;
-  }
+  }s
