@@ -15,6 +15,8 @@ console.log(newMap);
 newMap.delete("apple")   
 
 
+
+// constructor
 class Contact{
   constructor(name, age , number){
     this.name = name,
@@ -25,13 +27,17 @@ class Contact{
 }  
 
 
-const contacts = new Map(); 
+
+//instances 
+const contacts = new Map();   
 
 contacts.set("paul",new Contact("paul",29,"777888"));
 contacts.set("tim",new Contact("tim",49,"777888"));
 contacts.set("juntao",new Contact("juntao",78,"777888"));     
 console.log(contacts)
+ 
 
+// looping though contact instances 
 contacts.forEach((x) => {
   console.log("hi " + x.name)
 })

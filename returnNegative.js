@@ -9,4 +9,4 @@ function makeNegative(num) {
   }   
 
 
-  makeNegative(4)
+  makeNegative()
