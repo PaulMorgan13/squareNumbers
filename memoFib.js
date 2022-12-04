@@ -5,6 +5,8 @@ function fib(n, prev = []){
       return prev[n]
     }
     
+
+    // hoist a result 
     let result 
     if (n < 2){
       result = 1
