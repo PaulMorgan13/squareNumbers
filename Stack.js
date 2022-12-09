@@ -34,7 +34,7 @@ class Stack{
         console.log("the stack is empty at the moment")
       } 
       else {
-        return this.items.length-1
+        return this.items[this.count-1]
       } 
     } 
   
