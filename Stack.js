@@ -5,7 +5,7 @@ class Stack{
     }  
   
 
-
+    // this will push the element to the stack 
     push(item){
         this.items[this.count] = item
         
@@ -16,7 +16,7 @@ class Stack{
       
       }
     
-    
+      // this will pop the element  ins the stack 
       pop(){
         if(this.count == 0)
           return undefined  
@@ -28,7 +28,7 @@ class Stack{
     
       }  
 
-  
+    // shows the top of the stack
     peek(){
       if( this.items.length == 0 ){
         console.log("the stack is empty at the moment")
@@ -38,10 +38,13 @@ class Stack{
       } 
     } 
   
-  
+    //show the current size of the  stack
     size(){
         return this.items.length
-    }   
+    }     
+
+
+    // returns wheather the stack if full or not
   
     isEmpty(){
       if (this.items.length < 0){
