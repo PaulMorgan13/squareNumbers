@@ -2,7 +2,7 @@ function fib(n, prev = []){
 
 
 
-
+// checks if the item is in the prev array
   if(prev[n] != null){
       return prev[n]
     }
