@@ -60,7 +60,7 @@ class Stack{
   }   
   
   
-  let games = new Stack(); gt
+  let games = new Stack();
   
   
   
