@@ -3,6 +3,8 @@ function mostfrequentCount(collection){
     let  freCount = 0; 
 
 
+    //no map
+
     for( i = 0; i < collection.length ; i++){
 
 
