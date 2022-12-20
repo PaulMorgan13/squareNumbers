@@ -3,7 +3,7 @@ function mostfrequentCount(collection){
     let  freCount = 0; 
 
 
-    //no map
+    
 
     for( i = 0; i < collection.length ; i++){
 
@@ -20,11 +20,10 @@ function mostfrequentCount(collection){
 
 
 
-        }
+      
 
 
 
-// solution with map
         function mostFrequentItemCount(arr) {
             var len = arr.length;
           
