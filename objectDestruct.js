@@ -14,6 +14,4 @@ const {name:x, age:y , isSingle:z} = person
 
 
 
-
-
-console.log(`my name is ${x}`)
+console.log(`my name is ${x}  and the age is ${y}`)
