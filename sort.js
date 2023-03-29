@@ -37,6 +37,8 @@ const books = [
 ]
 
 
+
+
 console.log(books.sort(
     (a,b) => {
         return  b.price - a.price
@@ -44,4 +46,11 @@ console.log(books.sort(
     }
 
   
-))
+))       
+
+
+//call back  below
+
+function compare(a,b){
+    a-b 
+}
