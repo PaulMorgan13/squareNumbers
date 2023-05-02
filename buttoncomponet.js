@@ -13,4 +13,4 @@ const Test =() =>{
 
 }  
 
-export default Testg
+export default Test
