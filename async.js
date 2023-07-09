@@ -12,3 +12,35 @@ async function getPizza(){
 
 getPizza()
 console.log(`${pizza} was eaten` )
+
+
+function getData() {
+    return new Promise(
+      (res, reg) => {
+        setTimeout(() => {
+          res("Welcome to OZ")
+        }, 5000)
+  
+      })
+  
+  
+  
+  }
+  
+  
+  async function starting() {
+    try {
+      const result = await getdata()
+  
+      console.log(result)
+    }
+  
+    catch (error) {
+      console.log("Yo you got and error " + error)
+  
+    }
+  
+  }
+  
+  
+  starting()
