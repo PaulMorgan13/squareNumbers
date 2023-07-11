@@ -20,7 +20,7 @@ function getData() {
         setTimeout(() => {
           res("Welcome to OZ")
         }, 5000)
-  
+        reg("this is not working")
       })
   
   
@@ -43,4 +43,4 @@ function getData() {
   }
   
   
-  starting()
+  starting()    
